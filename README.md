@@ -10,7 +10,7 @@ git clone https://github.com/jpmaida/remote-ejb-call-from-login-module.git
 ```
 $ cd consumer/
 $ mvn clean package -DskipTests
-$ cd producer/
+$ cd provider/
 $ mvn clean package -DskipTests
 ```
 
