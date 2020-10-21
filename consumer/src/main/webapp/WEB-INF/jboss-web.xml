@@ -1,0 +1,4 @@
+<jboss-web>
+    <context-root>consumer</context-root>
+    <security-domain>my-jaas-sd</security-domain>
+</jboss-web>
