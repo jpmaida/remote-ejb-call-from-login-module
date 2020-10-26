@@ -18,6 +18,8 @@ public class Foo {
         try {
             Properties p = new Properties();
             p.put(Context.URL_PKG_PREFIXES, "org.jboss.ejb.client.naming");
+            p.put(Context.PROVIDER_URL, "http-remoting://localhost:8080");
+            p.put(Context.INITIAL_CONTEXT_FACTORY, "org.wildfly.naming.client.WildFlyInitialContextFactory");
             InitialContext context = new InitialContext(p);
             String jndi = "ejb:provider-ear/provider-ejb/FooRemote!com.redhat.ejb.IFoo";
             Object o = context.lookup(jndi);
