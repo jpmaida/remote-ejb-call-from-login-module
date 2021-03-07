@@ -1,4 +1,4 @@
-# remote-ejb-call-from-login-module
+# Remote EJB call from login module repo
 Repo dedicated as proof that there is a possible bug when a EJB remote call is done inside a javax.security module.
 
 ## Clone this repo
